@@ -1,0 +1,5 @@
+GraphicsWindow.Width=500
+GraphicsWindow.Height=250
+GraphicsWindow.PenColor="red"
+GraphicsWindow.DrawLine(0,0,100,100)
+GraphicsWindow.DrawLine(0,100,100,0)

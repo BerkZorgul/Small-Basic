@@ -1,0 +1,10 @@
+GraphicsWindow.Width=200
+GraphicsWindow.Height=200
+
+GraphicsWindow.BackgroundColor="Black"
+GraphicsWindow.PenColor="Green"
+
+for sayi=1 to 10
+  GraphicsWindow.PenWidth=sayi
+  GraphicsWindow.DrawLine(20,sayi*15,180,sayi*15)
+  EndFor

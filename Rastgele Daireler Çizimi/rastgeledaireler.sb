@@ -1,0 +1,9 @@
+GraphicsWindow.Title="Rastgele Daireler"
+GraphicsWindow.BackgroundColor="Black"
+For sayi=1 To 1000
+  GraphicsWindow.BrushColor=GraphicsWindow.GetRandomColor()
+  yatayx= Math.GetRandomNumber(640)
+  dikeyy= Math.GetRandomNumber(480)
+  GraphicsWindow.FillEllipse(yatayx,dikeyy,10,10)
+EndFor
+  

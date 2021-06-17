@@ -1,0 +1,10 @@
+GraphicsWindow.Title="İç içe Daireler"
+GraphicsWindow.Width=400
+GraphicsWindow.Height=400
+GraphicsWindow.BackgroundColor="Red"
+GraphicsWindow.PenColor="White"
+
+For sayi=1 To 200 Step 5
+  GraphicsWindow.DrawEllipse( 200-sayi,200-sayi,sayi*2,sayi*2)
+EndFor
+  

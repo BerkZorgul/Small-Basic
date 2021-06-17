@@ -1,0 +1,17 @@
+GraphicsWindow.Title="Karakter Çizimi"
+GraphicsWindow.Width=500
+GraphicsWindow.Height=500
+
+GraphicsWindow.BrushColor="Blue"
+GraphicsWindow.FillEllipse(170,70,80,80)
+
+GraphicsWindow.FillRectangle(180,150,60,150)
+
+GraphicsWindow.FillEllipse(80,150,95,25)
+GraphicsWindow.FillEllipse(245,150,95,25)
+
+GraphicsWindow.PenColor="Blue"
+GraphicsWindow.DrawRectangle(180,305,25,100)
+GraphicsWindow.DrawRectangle(215,305,25,100)
+
+GraphicsWindow.Show()

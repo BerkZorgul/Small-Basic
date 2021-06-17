@@ -1,0 +1,9 @@
+GraphicsWindow.Width=200
+GraphicsWindow.Height=200
+GraphicsWindow.BackgroundColor="Black"
+GraphicsWindow.PenColor="LightGreen"
+
+For sayi=1 To 100 Step 5
+  GraphicsWindow.DrawRectangle (100-sayi,100-sayi,sayi*2,sayi*2)
+EndFor
+  
